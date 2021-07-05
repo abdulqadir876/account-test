@@ -1,0 +1,125 @@
+
+.container{
+    width: 65%;
+    margin: auto;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.buttons-nav{
+    display: flex;
+    align-items: center;
+}
+.buttons-nav button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-weight: 500;
+}
+.buttons-nav button:hover{
+    background: #fff;
+    color: rgb(27, 68, 250);
+}
+.fa-cog{
+    transition-duration: 0.8s;
+    transition-property: transform;
+
+}
+.fa-cog:hover{
+    cursor: pointer;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+}
+.logo{
+    color: #fff;
+}
+.logo h2{
+    font-weight: 400;
+}
+section{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cols .fa{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.cols{
+    background-color: #fff;
+    width: 400px;
+    height: 150px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+
+    -webkit-box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.1);
+    -moz-box-shadow: 7px 7px 2px 0px rgba(50, 50, 50, 0.1);
+    box-shadow: 7px 7px 2px 0px rgba(67, 26, 105, 0.1);
+}
+.cols h3{
+    margin: 20px 15px;
+}
+.cols > .text{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 40px;
+    justify-content: space-between;
+    width: 200px;
+}
+.cols:hover{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+.cols h3{
+    font-weight: 400;
+    font-size: 20px;
+}
+.cols:nth-child(4) .text{
+    width: 350px;
+}
+.cols:nth-child(4)::after{
+    content: '1';
+    background-color: red;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    border-radius: 50px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+p span {
+    font-weight: 700;
+}
+.cols:nth-child(1){
+    border: #fff solid 2px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.cols:nth-child(1):hover{
+    background: #fff;
+    color: #111;
+ }
+.cols:nth-child(1) .fa:hover{
+    color: #111 !important;
+}

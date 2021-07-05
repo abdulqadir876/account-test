@@ -1,0 +1,39 @@
+body{
+  background-image: linear-gradient(to bottom right, blue, rgb(123, 158, 255));
+  /* background-color: rgb(26, 87, 255); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+
+}
+
+.section{
+  width: 70%;
+  margin: auto;
+}
+.section2{
+  width: 70%;
+  margin: auto;
+
+}
+.button-add{
+  margin-left: 30px;
+  
+}
+.button-add button{
+  /* border: 1px solid #fff; */
+}
+@media screen and (max-width: 480px) {
+  body {
+   /* /background-color: rgb(102, 142, 251); */
+   /* background-color: linear-gradient(to bottom right, blue, rgb(102, 142, 251)); */
+
+  }
+  .section{
+    width: 200px;
+  }
+  .button-add{
+    width: 100px;
+  }
+}
